@@ -1,0 +1,40 @@
+﻿@foreach (string category in ViewBag.Categories)
+{
+    <div>
+        <a href="/Product/List/@category/">@category</a>
+    </div>
+}
+
+@if (ViewBag.ProductID == 1)
+{
+    <p> Fender Stratocaster </p>
+}
+else if (ViewBag.ProductID == 2)
+{
+    <p> Gibson Les Paul</p>
+}
+else if (ViewBag.ProductID == 3)
+{
+    <p> Elie mambou</p>
+}
+else
+{
+    <p> Product Not Found</p>
+}
+
+@*<h1>Home</h1>
+    <div class="list-group">
+
+        <a asp-controller="Product" asp-action="Detail"
+           asp-route-id="Fender-Stratocaster">
+            View Fender Stratocaster
+        </a>
+
+        <a asp-controller="Product" asp-action="List">
+            View Products
+        </a>
+
+        <a asp-controller="Home" asp-action="About">
+            About Us
+        </a>
+    </div>*@

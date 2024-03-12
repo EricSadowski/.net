@@ -1,0 +1,32 @@
+﻿@model PriceQuotationModel
+@{
+    ViewBag.Title = "Price Quotation";
+}
+<h1>Future Value Calculator</h1>
+<form asp-action="Index" method="post">
+    <div asp-validation-summary="All"></div>
+    <div>
+        <label asp-for="Subtotal">
+            Subtotal:
+        </label>
+        <input asp-for="Subtotal" />
+    </div>
+    <div>
+        <label asp-for="DiscountPercent">
+            Discount Percent:
+        </label>
+        <input asp-for="DiscountPercent" />
+    </div>
+
+    <div>
+        <label>Total:</label>
+        <label>@ViewBag.DA.ToString("c2")</label>
+    </div>
+
+    <div>
+        <label>Total:</label>
+        <label>@ViewBag.Total.ToString("c2")</label>
+    </div>
+    <button type="submit">Calculate</button>
+    <a asp-action="Index">Clear</a>
+</form>
