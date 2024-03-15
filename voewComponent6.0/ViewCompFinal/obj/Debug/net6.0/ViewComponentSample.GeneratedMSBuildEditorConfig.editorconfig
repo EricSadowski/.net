@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ViewComponentSample
+build_property.RootNamespace = ViewComponentSample
+build_property.ProjectDir = C:\Users\ericc\OneDrive\Documents\GitHub\.net\voewComponent6.0\ViewCompFinal\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ericc\OneDrive\Documents\GitHub\.net\voewComponent6.0\ViewCompFinal
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/voewComponent6.0/ViewCompFinal/ViewComponents/Components/PriorityList/1Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld0NvbXBvbmVudHNcQ29tcG9uZW50c1xQcmlvcml0eUxpc3RcMURlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/voewComponent6.0/ViewCompFinal/Views/Shared/Components/PriorityListSync/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJpb3JpdHlMaXN0U3luY1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/voewComponent6.0/ViewCompFinal/Views/Shared/Components/PriorityList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJpb3JpdHlMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/voewComponent6.0/ViewCompFinal/Views/Shared/Components/PriorityList/Default1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJpb3JpdHlMaXN0XERlZmF1bHQxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/voewComponent6.0/ViewCompFinal/Views/Shared/Components/PriorityList/PVC.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJpb3JpdHlMaXN0XFBWQy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/voewComponent6.0/ViewCompFinal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/voewComponent6.0/ViewCompFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/voewComponent6.0/ViewCompFinal/Views/ToDo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9Eb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/voewComponent6.0/ViewCompFinal/Views/ToDo/IndexNameOf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9Eb1xJbmRleE5hbWVPZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/voewComponent6.0/ViewCompFinal/Views/ToDo/IndexSync.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9Eb1xJbmRleFN5bmMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/voewComponent6.0/ViewCompFinal/Views/ToDo/IndexTypeof.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9Eb1xJbmRleFR5cGVvZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/voewComponent6.0/ViewCompFinal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/voewComponent6.0/ViewCompFinal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/voewComponent6.0/ViewCompFinal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6zkw0bxh2z

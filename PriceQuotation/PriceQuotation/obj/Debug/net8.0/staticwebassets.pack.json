@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PriceQuotation.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HexConvert.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PriceQuotation.props",
-      "PackagePath": "build\\PriceQuotation.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HexConvert.props",
+      "PackagePath": "build\\HexConvert.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PriceQuotation.props",
-      "PackagePath": "buildMultiTargeting\\PriceQuotation.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HexConvert.props",
+      "PackagePath": "buildMultiTargeting\\HexConvert.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PriceQuotation.props",
-      "PackagePath": "buildTransitive\\PriceQuotation.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HexConvert.props",
+      "PackagePath": "buildTransitive\\HexConvert.props"
     }
   ],
   "ElementsToRemove": []

@@ -2,18 +2,21 @@
 
 namespace Guitar.Controllers
 {
-public class ProductController : Controller
-{
-        public
-     IActionResult List(string id = "All", int page = 1, string sortby = "Price")
-     {
-            return Content("id=" + id + ", page=" + page +
-                ",sortby = " + sortby);
-     }
-        public IActionResult Detail(int id)
+    public class ProductController : Controller
     {
-        return Content("Product controller, Detail action, id: "
-        + id);
+        public IActionResult Index()
+        {
+            return View("List"); // Views/Product/List.cshtml
+        }
+        public IActionResult List(string id = "All")
+        {
+            ViewBag.Category = id;
+            return View(); // Views/Product/List.cshtml
+        }
+        public IActionResult Details(string id)
+        {
+            ViewBag.ProductSlug = id;
+            return View(); // Views/Product/Details.cshtml
+        }
     }
-}
 }

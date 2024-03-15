@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ericc\\OneDrive\\Documents\\GitHub\\.net\\PriceQuotation\\PriceQuotation\\PriceQuotation.csproj",
-      "projectName": "PriceQuotation",
-      "projectPath": "C:\\Users\\ericc\\OneDrive\\Documents\\GitHub\\.net\\PriceQuotation\\PriceQuotation\\PriceQuotation.csproj",
+      "projectUniqueName": "C:\\Users\\ericc\\OneDrive\\Documents\\GitHub\\.net\\PriceQuotation\\PriceQuotation\\HexConvert.csproj",
+      "projectName": "HexConvert",
+      "projectPath": "C:\\Users\\ericc\\OneDrive\\Documents\\GitHub\\.net\\PriceQuotation\\PriceQuotation\\HexConvert.csproj",
       "packagesPath": "C:\\Users\\ericc\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ericc\\OneDrive\\Documents\\GitHub\\.net\\PriceQuotation\\PriceQuotation\\obj\\",
       "projectStyle": "PackageReference",

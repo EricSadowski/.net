@@ -9,22 +9,19 @@ namespace PriceQuotation.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            ViewBag.DA = 0;
             ViewBag.Total = 0;
             return View();
         }
 
         [HttpPost]
-        public IActionResult Index(PriceQuotationModel model)
+        public IActionResult Index(HexConvertModel model)
         {
             if (ModelState.IsValid)
             {
-                ViewBag.DA = model.CalculatePrice();
-                ViewBag.Total = model.Subtotal - ViewBag.DA;
+                ViewBag.Total = model.CalculateHex();
             }
             else
             {
-                ViewBag.DA = 0;
                 ViewBag.Total = 0;
             }
             return View(model);

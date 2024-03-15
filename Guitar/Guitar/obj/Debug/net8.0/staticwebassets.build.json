@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "znXcnbh4Xk5+hHI1JUJyd+2NfgUEEFYsF+o4IMWdyT4=",
+  "Hash": "YX5n0a3OoAKl99J+5ehH7FGjE48eO02OGCDhUx0np7E=",
   "Source": "Guitar",
   "BasePath": "_content/Guitar",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ericc\\OneDrive\\Documents\\GitHub\\.net\\Guitar\\Guitar\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Guitar.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\ericc\\OneDrive\\Documents\\GitHub\\.net\\Guitar\\Guitar\\wwwroot\\css\\custom.css",
+      "SourceId": "Guitar",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ericc\\OneDrive\\Documents\\GitHub\\.net\\Guitar\\Guitar\\wwwroot\\",
+      "BasePath": "_content/Guitar",
+      "RelativePath": "css/custom.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\custom.css"
     },
     {
       "Identity": "C:\\Users\\ericc\\OneDrive\\Documents\\GitHub\\.net\\Guitar\\Guitar\\wwwroot\\css\\site.css",

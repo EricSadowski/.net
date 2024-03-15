@@ -1,0 +1,33 @@
+﻿@{
+    string message = "Welcome!";
+    if (ViewBag.CustomerName != null)
+    {
+        message = "Welcome back!";
+    }
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+</head>
+<body>
+    <h1>@message</h1>
+    <p>Customer Name: @ViewBag.CustomerName</p>
+    <p>2 + 2 = @(2 + 2)</p>
+</body>
+<label for="month">Month:</label>
+<select name="month" id="month">
+    @for (int month = 1; month <= 12; month++)
+    {
+        <option value="@month">@month</option>
+    }
+</select>
+
+@foreach (string category in ViewBag.Categories)
+{
+    <div>
+        <a href="/Product/List/@category/">@category</a>
+    </div>
+}
+</html>
