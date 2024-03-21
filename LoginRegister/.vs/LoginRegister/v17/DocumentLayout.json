@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{310B2A8E-EEA2-493E-BC69-CFA060A246A8}|LoginRegister\\LoginRegister.csproj|c:\\users\\ceteacher\\source\\repos\\loginregister\\loginregister\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{310B2A8E-EEA2-493E-BC69-CFA060A246A8}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\LoginRegister\\Migrations\\20240320142614_InitialCommit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoginRegister\\Migrations\\20240320142614_InitialCommit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{310B2A8E-EEA2-493E-BC69-CFA060A246A8}|LoginRegister\\LoginRegister.csproj|c:\\users\\ceteacher\\source\\repos\\loginregister\\loginregister\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{310B2A8E-EEA2-493E-BC69-CFA060A246A8}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{310B2A8E-EEA2-493E-BC69-CFA060A246A8}|LoginRegister\\LoginRegister.csproj|c:\\users\\ceteacher\\source\\repos\\loginregister\\loginregister\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{310B2A8E-EEA2-493E-BC69-CFA060A246A8}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{310B2A8E-EEA2-493E-BC69-CFA060A246A8}|LoginRegister\\LoginRegister.csproj|c:\\users\\ceteacher\\source\\repos\\loginregister\\loginregister\\areas\\identity\\data\\loginregist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{310B2A8E-EEA2-493E-BC69-CFA060A246A8}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\areas\\identity\\data\\loginregist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{310B2A8E-EEA2-493E-BC69-CFA060A246A8}|LoginRegister\\LoginRegister.csproj|c:\\users\\ceteacher\\source\\repos\\loginregister\\loginregister\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{310B2A8E-EEA2-493E-BC69-CFA060A246A8}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{310B2A8E-EEA2-493E-BC69-CFA060A246A8}|LoginRegister\\LoginRegister.csproj|c:\\users\\ceteacher\\source\\repos\\loginregister\\loginregister\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{310B2A8E-EEA2-493E-BC69-CFA060A246A8}|LoginRegister\\LoginRegister.csproj|solutionrelative:loginregister\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 306,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 139,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240320142614_InitialCommit1.cs",
+              "DocumentMoniker": "C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\LoginRegister\\Migrations\\20240320142614_InitialCommit1.cs",
+              "RelativeDocumentMoniker": "LoginRegister\\Migrations\\20240320142614_InitialCommit1.cs",
+              "ToolTip": "C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\LoginRegister\\Migrations\\20240320142614_InitialCommit1.cs",
+              "RelativeToolTip": "LoginRegister\\Migrations\\20240320142614_InitialCommit1.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:26:14.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\LoginRegister\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LoginRegister\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\LoginRegister\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LoginRegister\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T14:24:10.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\LoginRegister\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "LoginRegister\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\LoginRegister\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "LoginRegister\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAswHwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:09:53.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\LoginRegister\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "LoginRegister\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\LoginRegister\\Areas\\Identity\\Pages\\Account\\Register.cshtml*",
+              "RelativeToolTip": "LoginRegister\\Areas\\Identity\\Pages\\Account\\Register.cshtml*",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T14:04:24.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\LoginRegister\\appsettings.json",
+              "RelativeDocumentMoniker": "LoginRegister\\appsettings.json",
+              "ToolTip": "C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\LoginRegister\\appsettings.json",
+              "RelativeToolTip": "LoginRegister\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-20T14:03:00.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginRegist.cs",
+              "DocumentMoniker": "C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\LoginRegister\\Areas\\Identity\\Data\\LoginRegist.cs",
+              "RelativeDocumentMoniker": "LoginRegister\\Areas\\Identity\\Data\\LoginRegist.cs",
+              "ToolTip": "C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\LoginRegister\\Areas\\Identity\\Data\\LoginRegist.cs",
+              "RelativeToolTip": "LoginRegister\\Areas\\Identity\\Data\\LoginRegist.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:01:12.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\LoginRegister\\Program.cs",
+              "RelativeDocumentMoniker": "LoginRegister\\Program.cs",
+              "ToolTip": "C:\\Users\\ceteacher\\source\\repos\\LoginRegister\\LoginRegister\\Program.cs",
+              "RelativeToolTip": "LoginRegister\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T13:53:53.273Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 12,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

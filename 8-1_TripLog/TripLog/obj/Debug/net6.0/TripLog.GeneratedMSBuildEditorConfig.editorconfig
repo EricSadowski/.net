@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TripLog
+build_property.RootNamespace = TripLog
+build_property.ProjectDir = C:\Users\ericc\OneDrive\Documents\GitHub\.net\8-1_TripLog\TripLog\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ericc\OneDrive\Documents\GitHub\.net\8-1_TripLog\TripLog
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/8-1_TripLog/TripLog/Views/Accommodation/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb21tb2RhdGlvblxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/8-1_TripLog/TripLog/Views/Destination/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25cQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/8-1_TripLog/TripLog/Views/Home/Accommodations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2NvbW1vZGF0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/8-1_TripLog/TripLog/Views/Home/Destinations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXN0aW5hdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/8-1_TripLog/TripLog/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/8-1_TripLog/TripLog/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/8-1_TripLog/TripLog/Views/Trip/Add1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxBZGQxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/8-1_TripLog/TripLog/Views/Trip/Add2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxBZGQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/8-1_TripLog/TripLog/Views/Trip/Add3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxBZGQzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/8-1_TripLog/TripLog/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ericc/OneDrive/Documents/GitHub/.net/8-1_TripLog/TripLog/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

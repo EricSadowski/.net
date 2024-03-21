@@ -1,0 +1,22 @@
+﻿@{
+    Layout = "_Layout";
+
+
+    string ActiveNav(string controller)
+    {
+        string currentController = ViewContext.RouteData.Values["controller"].ToString();
+        return (controller == currentController) ? "active" : "";
+    }
+}
+
+@section header {
+    <h2>Help Page</h2>
+}
+
+<nav class="nav nav-tabs mt-4 mb-4">
+    <a class="nav-item nav-link @ActiveNav("Home")" 
+       asp-action="Index" asp-controller="Home" asp-area="Help">Home</a>
+    <a class="nav-item nav-link @ActiveNav("Tutorial")" 
+       asp-action="Index" asp-controller="Tutorial" asp-route-id="Page1" asp-area="Help">Tutorial</a>
+</nav>
+@RenderBody()

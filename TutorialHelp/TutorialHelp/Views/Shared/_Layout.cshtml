@@ -1,0 +1,56 @@
+﻿@{ 
+    string ActiveNav(string action, string area = null)
+    {
+        string currentAction = ViewContext.RouteData.Values["action"].ToString();
+        string currentArea = ViewContext.RouteData.Values["area"]?.ToString();
+        return (action == currentAction && area == currentArea) ? "active" : "";
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container">
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+            <a class="navbar-brand" asp-action="Index">My Website</a>
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav mr-auto">
+                    <a class="nav-item nav-link @ActiveNav("Index")"
+                       asp-action="Index" asp-controller="Home" asp-area="">Home</a>
+                    <a class="nav-item nav-link @ActiveNav("About")"
+                       asp-action="About" asp-controller="Home" asp-area="">About</a>
+                    <a class="nav-item nav-link @ActiveNav("Contact")"
+                       asp-action="Contact" asp-controller="Home" asp-area="">Contact</a>
+                </div>
+                <div class="navbar-nav navbar-right">
+                    <a class="nav-item nav-link @ActiveNav("Index", "Help")"
+                       asp-action="Index" asp-controller="Home" asp-area="Help">Help</a>
+                </div>
+            </nav>
+        </nav>
+
+        <header class="mb-2">
+            @RenderSection("header")
+        </header>
+
+        <main role="main">
+            @RenderBody()
+        </main>
+
+    </div>
+</body>
+</html>

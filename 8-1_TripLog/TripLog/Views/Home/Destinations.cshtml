@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Destination>
+
+@{
+    ViewBag.Title = "My Trip Log";
+}
+
+ <a asp-action="Add" asp-controller="Destination" class="mt-2"><b>Add Destination</b></a>
+
+<table class="table table-bordered table-striped mt-2">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th></th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Destination destination in Model)
+        {
+            <tr>
+                <td>@destination.Name</td>
+                <td><button class="bg-primary">Delete</button></td>
+            </tr>
+        }
+    </tbody>
+</table>

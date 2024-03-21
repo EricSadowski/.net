@@ -1,0 +1,21 @@
+﻿@model DestinationViewModel
+
+@{
+    ViewBag.Title = "Add Destination";
+    
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Add">
+
+    <div class="mb-3">
+        <label asp-for="Destination.Name" class="form-label">Destination</label>
+        <input asp-for="Destination.Name" class="form-control" />
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-dark">Submit</button>
+        <a asp-action="Cancel" class="btn btn-outline-dark">Cancel</a>
+    </div>
+</form>

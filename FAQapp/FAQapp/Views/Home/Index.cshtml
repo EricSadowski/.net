@@ -1,0 +1,38 @@
+﻿@using FAQapp.Models;
+
+@model List<Question>;
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (Model != null && Model.Count() > 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var question in Model)
+            {
+                <tr>
+                    <td>@question.Q</td>
+                    <td>@question.Answer</td>
+                    <td>Topic: @question.Topic</td>
+                    <td>Category: @question.Category</td>
+                 
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <br />
+   
+
+}

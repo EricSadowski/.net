@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container">
+        <nav class="bg-primary">
+            <div><a class="nav-link text-dark" asp-controller="Home" asp-action="Index">View Trips</a></div>
+            <div>
+                <a class="nav-link text-dark" asp-controller="Home" asp-action="Destinations"> Manage Destinations</a>
+                <a class="nav-link text-dark" asp-controller="Home" asp-action="Accommodations"> Manage Accommodations</a>
+            </div>
+        </nav>
+        <header class="bg-secondary text-center text-white p-3 mb-2">
+            <h1>My Trip Log</h1>
+        </header>
+
+        <main role="main">
+            @* display temporary message if there is one *@
+            @if (TempData.Keys.Contains("message"))
+            {
+                <h2 class="bg-light text-center p-2 mb-1">@TempData["message"]</h2>
+            }
+
+            @* display sub header if there is one *@
+            @if (ViewData.Keys.Contains("SubHeader"))
+            {
+                <h2 class="mt-2 mb-2">@ViewBag.SubHeader</h2>
+            }
+
+            @RenderBody()
+        </main>
+    </div>
+
+</body>
+</html>

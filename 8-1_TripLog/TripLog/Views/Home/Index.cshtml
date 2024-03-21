@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Trip>
+
+@{
+    ViewBag.Title = "My Trip Log";
+}
+
+<a asp-action="Add" asp-controller="Trip" asp-route-id="page1" class="mt-2"><b>Add Trip</b></a>
+
+<table class="table table-bordered table-striped mt-2">
+    <thead>
+        <tr>
+            <th>Destination</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Accommodations</th>
+            <th>Things To Do</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Trip trip in Model)
+        {
+            <tr>
+                <td>@trip.DestinationId</td>
+                <td>@trip.StartDate?.ToShortDateString()</td>
+                <td>@trip.EndDate?.ToShortDateString()</td>
+                <td>
+                    <div>@trip.AccommodationId</div>
+                    @if (!string.IsNullOrEmpty(trip.AccommodationPhone))
+                    {
+                        <div>Phone: @trip.AccommodationPhone</div>
+                    }
+                    @if (!string.IsNullOrEmpty(trip.AccommodationEmail))
+                    {
+                        <div>Email: @trip.AccommodationEmail</div>
+                    }
+                </td>
+                <td>
+                    @if (!string.IsNullOrEmpty(trip.Activity1))
+                    {
+                        <div>@trip.Activity1</div>
+                    }
+                    @if (!string.IsNullOrEmpty(trip.Activity2))
+                    {
+                        <div>@trip.Activity2</div>
+                    }
+                    @if (!string.IsNullOrEmpty(trip.Activity3))
+                    {
+                        <div>@trip.Activity3</div>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

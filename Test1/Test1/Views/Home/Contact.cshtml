@@ -1,0 +1,19 @@
+﻿@model Dictionary<string, string>
+
+@{
+    ViewBag.Title = "Contact Me";
+}
+
+
+    <h1>Contact</h1>
+
+
+<table class="table">
+    @foreach (KeyValuePair<string, string> pair in Model)
+    {
+        <tr>
+            <td>@pair.Key</td>
+            <td>@pair.Value</td>
+        </tr>
+    }
+</table>

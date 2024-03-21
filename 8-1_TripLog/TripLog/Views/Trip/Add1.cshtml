@@ -1,0 +1,51 @@
+﻿@model TripViewModel
+
+
+@{
+    ViewBag.Title = "Add Trip - Page 1";
+    ViewBag.SubHeader = "Add Trip Destination and Dates";
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Add">
+    <input type="hidden" asp-for="PageNumber" />
+
+
+    <div class="mb-3">
+        <label asp-for="Trip.DestinationId" class="form-label">Destination</label>
+        <select asp-for="Trip.DestinationId" class="form-control">
+            <option value="">Select Destination</option>
+            @foreach (var destination in Model.Destinations)
+            {
+                <option value="@destination.DestinationId">@destination.Name</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Trip.AccommodationId" class="form-label">Destination</label>
+        <select asp-for="Trip.AccommodationId" class="form-control">
+            <option value="">Select Accommodation</option>
+            @foreach (var accommodation in Model.Accommodations)
+            {
+                <option value="@accommodation.AccommodationId">@accommodation.Name</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Trip.StartDate" class="form-label">Start Date</label>
+        <input asp-for="Trip.StartDate" class="form-control" type="text" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Trip.EndDate" class="form-label">End Date</label>
+        <input asp-for="Trip.EndDate" class="form-control" type="text" />
+    </div>
+    <div>
+        <button type="submit" class="btn btn-dark">Next</button>
+        <a asp-action="Cancel" class="btn btn-outline-dark">Cancel</a>
+    </div>
+</form>
+

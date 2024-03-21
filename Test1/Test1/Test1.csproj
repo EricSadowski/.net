@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\User1\Data\" />
+    <Folder Include="Areas\User1\Models\" />
+    <Folder Include="Areas\User2\Data\" />
+    <Folder Include="Areas\User2\Models\" />
+    <Folder Include="Areas\User3\Data\" />
+    <Folder Include="Areas\User3\Models\" />
+  </ItemGroup>
+
+</Project>
