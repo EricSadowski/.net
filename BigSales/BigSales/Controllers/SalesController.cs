@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BigSales.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BigSales.Controllers
 {
@@ -10,6 +11,7 @@ namespace BigSales.Controllers
 
         public IActionResult Index() => RedirectToAction("Index", "Home");
 
+        [Authorize]
         [HttpGet]
         public IActionResult Add()
         {

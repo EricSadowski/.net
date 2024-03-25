@@ -1,0 +1,41 @@
+﻿@model BookViewModel
+
+@{
+    ViewBag.Title = "Add Book";
+
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Add">
+
+    <div class="mb-3">
+        <label asp-for="Book.Title" class="form-label">Title</label>
+        <input asp-for="Book.Title" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Book.ISBN" class="form-label">ISBN</label>
+        <input asp-for="Book.ISBN" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Book.Author" class="form-label">Author</label>
+        <input asp-for="Book.Author" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Book.Price" class="form-label">Price</label>
+        <input asp-for="Book.Price" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Book.Date" class="form-label">Date</label>
+        <input asp-for="Book.Date" class="form-control" />
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-dark">Submit</button>
+        <a asp-action="Cancel" class="btn btn-outline-dark">Cancel</a>
+    </div>
+</form>

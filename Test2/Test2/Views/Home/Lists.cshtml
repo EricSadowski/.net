@@ -1,0 +1,58 @@
+﻿@model ListsViewModel
+
+
+@{
+    ViewBag.Title = "List of Books and Subjects ";
+}
+
+<a asp-action="Add" asp-controller="Book" class="mt-2"><b>Add Book</b></a>
+
+<table class="table table-bordered table-striped mt-2">
+    <thead>
+        <tr>
+            <th>ISBN</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Date Published</th>
+
+        </tr>
+    </thead>
+     <tbody>
+        @foreach (Book book in Model.Books)
+        {
+            <tr>
+                <td>@book.ISBN</td>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.Price</td>
+                <td>@book.Date</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Add" asp-controller="Subject" class="mt-2"><b>Add Subject</b></a>
+
+<table class="table table-bordered table-striped mt-2">
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Start Date</th>
+            <th>Credits</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Subject subject in Model.Subjects)
+        {
+            <tr>
+                <td>@subject.Code</td>
+                <td>@subject.Date</td>
+                <td>@subject.Credits</td>
+
+            </tr>
+        }
+    </tbody>
+</table>
