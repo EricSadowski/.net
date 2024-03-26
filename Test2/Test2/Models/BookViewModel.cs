@@ -2,6 +2,6 @@
 {
     public class BookViewModel
     {
-        Book book { get; set; }
+       public Book Book { get; set; } = new Book();
     }
 }

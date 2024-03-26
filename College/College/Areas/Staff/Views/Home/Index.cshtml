@@ -1,0 +1,39 @@
+﻿@using College.Areas.Staff.Models
+@model TaskListViewModel
+
+
+@{
+    ViewBag.Title = "List of Tasks ";
+}
+
+<a asp-area="Staff" asp-controller="Home" asp-action="Add">Add Task</a>
+
+
+<table class="table table-bordered table-striped mt-2">
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Description</th>
+            <th>Location</th>
+            <th>Status</th>
+            <th></th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (TaskItem task in Model.Tasks)
+        {
+            <tr>
+                <td>@task.Code</td>
+                <td>@task.Description</td>
+                <td>@task.Location</td>
+                <td>@task.Status</td>
+                <td>
+                    <form asp-action="Delete" asp-route-id="@task.Code" method="post">
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

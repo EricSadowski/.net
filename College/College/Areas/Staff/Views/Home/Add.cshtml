@@ -1,0 +1,39 @@
+﻿
+@model TaskItemViewModel
+
+@{
+    ViewBag.Title = "Add ";
+
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Add">
+
+    <div class="mb-3">
+        <label asp-for="TaskItem.Code" class="form-label">Code</label>
+        <input asp-for="TaskItem.Code" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="TaskItem.Description" class="form-label">Description</label>
+        <input asp-for="TaskItem.Description" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="TaskItem.Location" class="form-label">Location</label>
+        <input asp-for="TaskItem.Location" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="TaskItem.Status" class="form-label">Status</label>
+        <input asp-for="TaskItem.Status" class="form-control" />
+    </div>
+
+
+    <div>
+        <button type="submit" class="btn btn-dark">Submit</button>
+        <a asp-action="Cancel" class="btn btn-outline-dark">Cancel</a>
+    </div>
+
+</form>

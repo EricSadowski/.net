@@ -22,6 +22,78 @@ namespace College.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("College.Areas.Staff.Models.TaskItem", b =>
+                {
+                    b.Property<string>("Code")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Code");
+
+                    b.ToTable("Tasks");
+
+                    b.HasData(
+                        new
+                        {
+                            Code = "A10",
+                            Description = "Go to work",
+                            Location = "Online",
+                            Status = "Done"
+                        },
+                        new
+                        {
+                            Code = "A60",
+                            Description = "Go to school",
+                            Location = "In Person",
+                            Status = "In Progress"
+                        });
+                });
+
+            modelBuilder.Entity("College.Areas.Student.Models.DutyItem", b =>
+                {
+                    b.Property<string>("Code")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Code");
+
+                    b.ToTable("Duties");
+
+                    b.HasData(
+                        new
+                        {
+                            Code = "AB10",
+                            Description = "Go to work",
+                            Status = "Done"
+                        },
+                        new
+                        {
+                            Code = "AB60",
+                            Description = "Go to school",
+                            Status = "Done"
+                        });
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")

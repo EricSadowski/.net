@@ -1,0 +1,31 @@
+﻿@using College.Areas.Student.Models
+@model DutyViewModel
+
+
+@{
+    ViewBag.Title = "List of Duties ";
+}
+
+<a  asp-area="Student" asp-controller="Home" asp-action="Add">Add Duty</a>
+
+
+<table class="table table-bordered table-striped mt-2">
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Description</th>
+            <th>Status</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (DutyItem duty in Model.Duties)
+        {
+            <tr>
+                <td>@duty.Code</td>
+                <td>@duty.Description</td>
+                <td>@duty.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>
