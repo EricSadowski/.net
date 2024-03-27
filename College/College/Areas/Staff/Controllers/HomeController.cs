@@ -70,16 +70,13 @@ namespace College.Areas.Staff.Controllers
         [HttpGet]
         public IActionResult Edit(string id)
         {
-            // Retrieve the task with the given id from the database or any other data source
             var task = context.Tasks.Find(id);
 
             if (task == null)
             {
-                // If the task is not found, you can handle it accordingly (e.g., display an error message)
                 return NotFound();
             }
 
-            // Pass the task to the view for editing
             return View(task);
         }
 
@@ -87,8 +84,6 @@ namespace College.Areas.Staff.Controllers
         public IActionResult Edit(TaskItem task)
         {
 
-            // Retrieve the task with the given id from the database or any other data source
-            // var taskToChange = context.Tasks.Find(task.Code);
 
             context.Tasks.Update(task);
 
