@@ -28,6 +28,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="Staff" asp-controller="Home" asp-action="Index">Staff</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Gamer" asp-controller="Home" asp-action="Index">Gamer</a>
+                        </li>
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
@@ -40,10 +43,15 @@
         </main>
     </div>
 
+
     
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyVCgfFFsttk3c1pUunFgLsKmF3Wd2W0aCeiPfsJxWhdSQ8Zy5of2mJEnj5mg5zD" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha384-xOu/VS+yArI6ns3sraa9PbckT6L3Hm+2ca/O7z9NRrEZkaLfjZOXLQoIJ5iAQ84L" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.13/jquery.validate.unobtrusive.min.js" integrity="sha384-BRGRZQIFzNIsQg5z9Qsslo9NLvFOMa4sbinCU8m6Q52BPDtSy1QNlNsgSaHDcEid" crossorigin="anonymous"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

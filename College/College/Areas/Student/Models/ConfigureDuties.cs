@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace College.Areas.Student.Models
 {
-    internal class ConfigureDuties : IEntityTypeConfiguration<DutyItem>
+    internal class ConfigureDuties : IEntityTypeConfiguration<Duty>
     {
 
-            public void Configure(EntityTypeBuilder<DutyItem> entity)
+            public void Configure(EntityTypeBuilder<Duty> entity)
             {
 
                 // seed initial data

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container text-center">
+
+        <header class="bg-info text-white p-5 mb-1">
+            <h1>Tic Tac Toe</h1>
+        </header>
+
+        <main role="main">
+            @if (TempData.Keys.Contains("message"))
+            {
+                <h4 class="bg-success text-white p-3">@TempData["message"]</h4>
+            }
+            @RenderBody()
+        </main>
+
+    </div>
+</body>
+</html>

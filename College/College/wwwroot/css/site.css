@@ -20,3 +20,24 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.navbar-brand {
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+.pb-3 {
+    padding-bottom: 3rem;
+}

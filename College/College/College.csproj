@@ -19,10 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Gamer\Controllers\" />
     <Folder Include="Areas\Gamer\Data\" />
-    <Folder Include="Areas\Gamer\Models\" />
-    <Folder Include="Areas\Gamer\Views\" />
+    <Folder Include="Areas\Gamer\Views\Shared\" />
     <Folder Include="Areas\Staff\Data\" />
     <Folder Include="Areas\Staff\Views\Shared\" />
     <Folder Include="Areas\Student\Data\" />

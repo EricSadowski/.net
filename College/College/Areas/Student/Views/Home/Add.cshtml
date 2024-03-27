@@ -1,0 +1,32 @@
+﻿@model DutyViewModel
+
+@{
+    ViewBag.Title = "Add ";
+
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Add">
+
+    <div class="mb-3">
+        <label asp-for="Duty.Code" class="form-label">Code</label>
+        <input asp-for="Duty.Code" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Duty.Description" class="form-label">Description</label>
+        <input asp-for="Duty.Description" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Duty.Status" class="form-label">Status</label>
+        <input asp-for="Duty.Status" class="form-control" />
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-dark">Submit</button>
+        <a asp-action="Cancel" class="btn btn-outline-dark">Cancel</a>
+    </div>
+
+</form>

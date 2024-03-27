@@ -4,6 +4,6 @@ namespace College.Areas.Student.Models
 {
     public class DutyViewModel
     {
-        public IEnumerable<DutyItem> Duties { get; set; }
+        public Duty Duty { get; set; } = new Duty();
     }
 }

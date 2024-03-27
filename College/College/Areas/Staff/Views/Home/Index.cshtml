@@ -29,9 +29,14 @@
                 <td>@task.Location</td>
                 <td>@task.Status</td>
                 <td>
+
+                    <a asp-action="Edit" asp-route-id="@task.Code" class="btn btn-primary">Edit</a>
+                    
                     <form asp-action="Delete" asp-route-id="@task.Code" method="post">
                         <input type="submit" value="Delete" class="btn btn-danger" />
                     </form>
+
+
                 </td>
             </tr>
         }

@@ -1,0 +1,45 @@
+﻿@model TicTacToeViewModel
+
+@{
+    ViewData["Title"] = "Tic Tac Toe";
+}
+
+@if (Model.IsGameOver)
+{
+    <a asp-action="Index"><b>New Game</b></a>
+}
+else
+{
+    <h2 class="mt-2">@Model.Selected.Mark's turn</h2>
+}
+
+<form asp-action="Index" method="post">
+
+    <input type="hidden" asp-for="Selected.Mark" />
+
+    <div class="board-row">
+
+        @foreach (Cell cell in Model.Cells)
+        {
+            @if (cell.IsBlank)
+            {
+                <button type="submit" name="Selected.Id" value="@cell.Id"
+                class="btn btn-outline-dark">
+                    &nbsp;
+                </button>
+            }
+            else
+            {
+                <button class="btn btn-outline-dark" disabled>@cell.Mark</button>
+            }
+
+            @if (cell.IsEndCell)
+            {
+                <br />
+            }
+        }
+    </div>
+
+</form>
+
+

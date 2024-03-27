@@ -1,5 +1,5 @@
 ﻿@using College.Areas.Student.Models
-@model DutyViewModel
+@model DutyListViewModel
 
 
 @{
@@ -15,16 +15,24 @@
             <th>Code</th>
             <th>Description</th>
             <th>Status</th>
+            <th></th>
 
         </tr>
     </thead>
     <tbody>
-        @foreach (DutyItem duty in Model.Duties)
+        @foreach (Duty duty in Model.Duties)
         {
             <tr>
                 <td>@duty.Code</td>
                 <td>@duty.Description</td>
                 <td>@duty.Status</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@duty.Code" class="btn btn-primary">Edit</a>
+
+                    <form asp-action="Delete" asp-route-id="@duty.Code" method="post">
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </form>
+                </td>
             </tr>
         }
     </tbody>

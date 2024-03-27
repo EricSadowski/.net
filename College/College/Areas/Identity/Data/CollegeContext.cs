@@ -15,7 +15,7 @@ public class CollegeContext : IdentityDbContext<IdentityUser>
     {
     }
 
-    public DbSet<DutyItem> Duties { get; set; } = null!;
+    public DbSet<Duty> Duties { get; set; } = null!;
     public DbSet<TaskItem> Tasks { get; set; } = null!;
     protected override void OnModelCreating(ModelBuilder builder)
     {
