@@ -100,6 +100,12 @@ namespace College.Areas.Student.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        public IActionResult Cancel()
+        {
+            return RedirectToAction("Index", "Home");
+        }
+
+
 
     }
 }

@@ -97,6 +97,11 @@ namespace College.Areas.Staff.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        public IActionResult Cancel()
+        {
+            return RedirectToAction("Index", "Home");
+        }
+
 
     }
 }
